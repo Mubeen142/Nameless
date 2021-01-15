@@ -15,7 +15,7 @@ $language = array(
     /*
      *  Change this for the account validation message
      */
-    'validate_account_command' => 'Om de registratie te voltooien, run alstublieft het commando <strong>/validate {x}</strong> ingame.', // Don't replace {x}
+    'validate_account_command' => 'Om de registratie te voltooien, voer alstublieft het commando <strong>/validate {x}</strong> in-game uit.', // Don't replace {x}
 
     /*
      *  Gebruiker gerelateerd
@@ -37,7 +37,7 @@ $language = array(
     'alerts' => 'Meldingen',
     'delete_all' => 'Verwijder alle meldingen',
     'private_profile' => 'Privé profiel',
-    'gif_avatar' => 'Upload .gif as custom avatar',
+    'gif_avatar' => 'Upload .gif als aangepaste avatar',
 
     // Profiel instellingen
     'field_is_required' => '{x} is nodig.', // Verander {x} niet
@@ -95,7 +95,7 @@ $language = array(
     'create_an_account' => 'Maak een account',
     'terms_and_conditions' => 'Voorwaarden',
     'validation_complete' => 'Je account is bevestigd, je kunt nu inloggen.',
-    'validation_error' => 'Er was een onbekend probleem bij het bevestigen van je account, neem contact op met de beheerds.',
+    'validation_error' => 'Er was een onbekend probleem bij het bevestigen van je account, neem contact op met de beheerder.',
     'signature' => 'Ondertekening',
     'signature_max_900' => 'Je ondertekening moet uit maximaal 900 karakters bestaan.',
 
@@ -126,7 +126,7 @@ $language = array(
     'mcname_lookup_error' => 'Er was een probleem met het bereiken van Mojang\'s servers om je gebruikersnaam te bevestigen. Probeer later nog eens.',
     'invalid_recaptcha' => 'Ongeldig reCAPTCHA antwoord.',
     'verify_account' => 'Controleer account',
-    'verify_account_help' => 'Graag de volgende instructies volgen zodat we kunnen valideren (controleren) of u de eigenaar bent van dit Minecraft account.',
+    'verify_account_help' => 'Graag de volgende instructies volgen, zodat we kunnen valideren (controleren) of u de eigenaar bent van dit Minecraft account.',
     'validate_account' => 'Account valideren',
     'verification_failed' => 'Validatie gefaald, probeer het opnieuw.',
     'verification_success' => 'Succesvol gevalideerd! Je kunt nu inloggen.',
@@ -145,7 +145,7 @@ $language = array(
     'must_input_password' => 'Je moet een wachtwoord invoeren.',
 
     // Forgot password
-       'forgot_password_instructions' => 'Graag je email adres invoeren zodat we verdere instructies kunnen sturen om je wachtwoord te herstellen.',
+       'forgot_password_instructions' => 'Graag je email adres invoeren, zodat we verdere instructies kunnen sturen om je wachtwoord te herstellen.',
        'forgot_password_email_sent' => 'Als een account met dit email adres bestaat, is er een email verstuurt met daarin verdere instructies. Als je hem niet kan vinden, bekijk dan ook de spam/junk/ongewenste map.',
        'unable_to_send_forgot_password_email' => 'Kon vergeten wachtwoord email niet verzenden. Graag contact opnemen met een administrator.',
        'enter_new_password' => 'Graag je email bevestigen en een nieuw wachtwoord invoeren.',
@@ -168,8 +168,8 @@ $language = array(
     'no_replies_yet' => 'Nog geen antwoorden',
     'feed' => 'Berichten muur',
     'about' => 'Over',
-    'reactions' => 'Reacties',
-    'replies' => 'Antwoorden',
+    'reactions' => 'Opmerkingen',
+    'replies' => 'Reacties',
     'new_reply' => 'Nieuw antwoord',
     'registered' => 'Geregistreerd sinds:',
     'registered_x' => 'Geregistreerd sinds: {x}',
@@ -188,13 +188,13 @@ $language = array(
     'new_wall_post_reply' => '{x} heeft gereageerd op jouw post op {y}\'s profiel.', // Don't replace {x} or {y}
     'new_wall_post_reply_your_profile' => '{x} heeft gereageerd op jouw post op jouw eigen profiel.', // Don't replace {x}
     'no_about_fields' => 'Deze gebruiker heeft nog geen over-velden toegevoegd.',
-    'reply' => 'Antwoord',
-    'discord_username' => 'Discord Username',
+    'reply' => 'Reageer',
+    'discord_username' => 'Discord Gebruikersnaam',
     
     // Rapporten
     'invalid_report_content' => 'Kan geen rapport maken. Zorg ervoor dat je rapport reden tussen de 2 en 1024 karakters is.',
     'report_post_content' => 'Voer een reden in voor je rapport',
-    'report_created' => 'Rapport succesvol gemaakt',
+    'report_created' => 'Rapport succesvol aangemaakt',
 
     // Berichten
     'no_messages' => 'Geen nieuwe berichten',
@@ -237,7 +237,7 @@ $language = array(
      *  Hooks
      */
     'user_x_has_registered' => '{x} is lid geworden van ' . SITE_NAME . '!',
-    'user_x_has_validated' => '{x} has validated their account!',
+    'user_x_has_validated' => '{x} heeft zijn/haar account gevalideerd!',
 
     // Discord
     'discord_link' => 'Discord Link',
@@ -245,7 +245,7 @@ $language = array(
     'not_linked' => 'Niet Gekoppeld',
     'discord_id' => 'Discord Gebruikers ID',
     'discord_id_unlinked' => 'Succesvol ontkoppeld van uw Discord Gebruikers-ID.',
-    'discord_id_confirm' => 'Please send this message: "!verify {guild_id}:{token}" to {bot_username} to confirm your Discord User ID.',
+    'discord_id_confirm' => 'Verstuur: "!verify {guild_id}:{token}" naar {bot_username} om je Discord ID te bevestigen.',
     'pending_link' => 'Wachtende',
     'discord_id_taken' => 'Die Discord Gebruikers-ID is al ingenomen.',
     'discord_invalid_id' => 'Dat Discord Gebruikers-ID is ongeldig.',
